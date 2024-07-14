@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+.navbar{
+  width: 100%;
+  height: 100px;
+  background-color: #bbe8fc;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.nav-logo{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.nav-menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 220px;
+    font-family: Dosis;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu a{
+    color: #004aad;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #004aad;
+    color: white;
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    color: white;
+}
+
+.nav-login-cart button{
+    width: 125px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #004aad;
+    border-radius: 75px;
+    color: #004aad;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+    margin-left: 250px;
+    font-family: Dosis;
+}
+
+.nav-login-cart button:active{
+    background: grey;
+}
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
+}

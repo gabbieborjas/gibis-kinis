@@ -1,0 +1,39 @@
+.relatedproducts{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.relatedproducts h1{
+    color: #004aad;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 500px;
+}
+.relatedproducts-item{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+@media(max-width:600px){
+   
+    .relatedproducts h1{
+        font-size: 30px;
+    }
+    .relatedproducts hr{
+        width: 100px;
+        height: 4px;
+        
+    }
+}
